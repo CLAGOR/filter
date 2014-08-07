@@ -1,0 +1,4 @@
+Application filters a list of items by given search parameter.
+
+  Ruby - 2.1.1
+  Rails - 3.2.19

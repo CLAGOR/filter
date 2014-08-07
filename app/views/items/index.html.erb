@@ -1,0 +1,8 @@
+<div id="main">
+  <ul><%= nested_items(@items.arrange) %></ul>  
+
+  <%= form_tag :items, method: :get do %>
+    <%= text_field_tag :filter_by, @filter_by %>   
+    <%= submit_tag "hľadať" %>
+  <% end %>
+</div>
